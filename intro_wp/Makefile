@@ -2,7 +2,7 @@ ROOT=..
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	copy_1
+PROGS =	copy_1 process_id simple_shell p_error get_uid
 
 all:	$(PROGS)
 
